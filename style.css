@@ -1,6 +1,8 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+ 
+
 *{
     margin-block: 0;
     padding: 1000;
@@ -48,7 +50,7 @@ section{
     justify-content: space-between;
 }
 section .title{
-    position: relative;
+      position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
@@ -465,7 +467,6 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: lightgrey;
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -533,7 +534,6 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
 }
 .contact .right form .fields{
     display: flex;
@@ -565,7 +565,6 @@ section .title::after{
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
@@ -735,4 +734,42 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    
 }
+.dark-mode {
+    color: white;
+    padding: 10px;
+  }
+  
+  .dark-mode p {
+    margin: 0;
+  }
+  
+  .dark-mode .link {
+    color: white;
+    text-decoration: underline;
+ }
+
+ /* Dark mode styles */
+
+body.dark-mode{
+    color: white;
+    background-color: #111;
+  }
+  .dark-mode .home {
+    color: white;
+  }
+  .dark-mode .sub-title.text-1,
+    .dark-mode .sub-title.text1 {
+        color: #fff;
+}
+  
+  /* Link styles for dark mode */
+  .dark-mode .dark-mode-link {
+    color: white;
+    text-decoration: underline;
+  }
+ .dark-mode section .title::after{
+    background: #111;
+    color:#fff;
+ }

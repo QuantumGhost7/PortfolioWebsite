@@ -7,6 +7,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 </head>
 
 <body>
@@ -118,21 +120,21 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Vedant Seth</div>
+                                <div class="sub-title", class = "text-1">Vedant Seth</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Location</div>
-                                <div class="sub-title">Vellore, Tamil Nadu, India</div>
+                                <div class="sub-title", class = "text1">Vellore, Tamil Nadu, India</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">vedant11@skiff.com</div>
+                                <div class="sub-title", class = "text1">vedant11@skiff.com</div>
                             </div>
                         </div>
                     </div>
@@ -166,7 +168,7 @@
     <!-- Contact section ends here -->
 
     <footer>
-        <div class="max-width">
+        <div id = "bott", class="max-width">
             <div class="socials">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -175,9 +177,11 @@
             </div>
             <div class="credits">
                 Made with <span>&#10084;</span> by <a href="https://github.com/QuantumGhost7">Vedant</a>
-            </div>
-            
-        </div>
+                <div class="dark-mode">
+                    <a href="#" class="link dark-mode-link">I want dark mode</a>
+                  </div>
+            </div>  
+
     </footer>
 
     <script src="script.js"></script>
